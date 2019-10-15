@@ -1,22 +1,125 @@
-.App {
-  text-align: center;
-}
+        .App {
+            flex: 1;
+            display: flex;
+            min-height: 100vh;
+            text-align: center;
+            background-color: #f3efe0;
+            width: 100%;
+            padding: 0;
+            font-family: 'Be Vietnam', sans-serif;
+        }
+        
+        .choice-card {
+            flex: 1;
+            display: flex;
+            margin: 25px;
+            font-size: 3em;
+            padding: 40px 40px;
+            font-weight: 300;
+            text-align: center;
+            border-radius: 25px;
+            align-items: center;
+            flex-direction: column;
+            background-color: #39f;
+            justify-content: space-around;
+            border: 10px solid #000;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+        }
+        
+        .cardimg {
+            max-width: 90% ;
+            max-height: 90% ;
+        }
+        
+        h1 {
+            font-size: 50px;
+        }
+        
+        .winner {
+            color: green;
+            border: 10px solid green;
+        }
 
-.App-logo {
-  height: 40vmin;
-}
+        .tie {
+            color: black;
+            border: 10px solid orange;
+        }
+        
+        .black {
+            color: black;
+            border: 10px solid black;
+        }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+        .loser {
+            color: red;
+            border: 10px solid red;
+        }
+        
+        button {
+            margin: 15px;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        .navigation {
+            /* display: flex; */
+            /* justify-content: center; */
+            /* width: 100%; */
+            background-color: #39f;
+            height: auto;
+            padding: 5px;
+        }
+        
+    
+        .navigation > ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navigation > ul > li {
+            display: inline;
+            margin: 10px;
 
-.App-link {
-  color: #09d3ac;
-}
+        }
+
+        .container-fluid {
+            padding: 0;
+        }
+        .namegame {
+            color: #f3efe0;
+        }
+        .bsNavbar > img {
+            max-height : 50px;
+        }
+        .bsNavbar {
+            background-color: #39f;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #39f;
+            color: #f3efe0;
+        }
+
+        .guess-history {
+            background-color: #39f;
+            color: #f3efe0;
+            display: block;
+        }
+
+        .player-choice {
+            padding-left: 5% ;
+        }
+
+        .computer-choice {
+            padding-right: 5% ;
+        }   
+
+
+       
+
+
+        
